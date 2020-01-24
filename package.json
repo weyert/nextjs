@@ -1,0 +1,37 @@
+{
+  "name": "restauranto-dashboard",
+  "version": "1.0.0",
+  "description": "A dashboard management portal for restaurant bookings",
+  "main": "index.js",
+  "author": "Weyert de Boer",
+  "license": "commercial",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "analyze": "cross-env ANALYZE=true next build"
+  },
+  "dependencies": {
+    "graphql-request": "^1.8.2",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-markdown": "^4.3.1",
+    "swr": "^0.1.16"
+  },
+  "devDependencies": {
+    "@types/node": "^13.5.0",
+    "@types/react": "^16.9.19",
+    "cross-env": "^6.0.3",
+    "jest": "^25.1.0",
+    "typescript": "^3.7.5"
+  },
+  "browserslist": [
+    ">0.3%",
+    "not ie 11",
+    "not dead",
+    "not op_mini all"
+  ]
+}
